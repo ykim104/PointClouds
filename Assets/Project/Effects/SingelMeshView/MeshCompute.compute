@@ -3,6 +3,9 @@
 
 
 RWStructuredBuffer<float3> _Positions;
+RWStructuredBuffer<float3> _Normals;
+RWStructuredBuffer<float3> _UVs;
+RWStructuredBuffer<float3> _Colors;
 
 [numthreads(64,1,1)]
 void CSMain (uint3 id : SV_DispatchThreadID)

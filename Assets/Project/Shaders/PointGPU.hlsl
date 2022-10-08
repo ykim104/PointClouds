@@ -2,6 +2,7 @@
 	StructuredBuffer<float3> _Positions;
 	StructuredBuffer<float2> _uvs;
 	StructuredBuffer<float3> _Normals;
+	StructuredBuffer<float4> _Colors;
 #endif
 
 float _Step;
@@ -16,7 +17,7 @@ float4x4 _quaternion;
 void ConfigureProcedural()
 { //run per vertex
 #if defined(UNITY_PROCEDURAL_INSTANCING_ENABLED)
-	
+	_color = _Colors[unity_InstanceID];
 	float3 position = _Positions[unity_InstanceID];
 	_uvPosition = _uvs[unity_InstanceID];
 	_normalDirection = _Normals[unity_InstanceID];
