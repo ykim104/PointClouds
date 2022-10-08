@@ -11,10 +11,10 @@ I added and edited following files:
 
 # Lidar Sensor To Points
 These images are taken using animated Ballet Dancers. 
-![alt text](https://github.com/ykim104/PoinClouds/blob/main/Previews/lidarColorByDistanceWBackground.png)
-![alt text](https://github.com/ykim104/PoinClouds/blob/main/Previews/lidarColorByObject.png)
-![alt text](https://github.com/ykim104/PoinClouds/blob/main/Previews/lidarsensor.png)
-![alt text](https://github.com/ykim104/PoinClouds/blob/main/Previews/sensortopointcloud.png)
+![alt text](https://github.com/ykim104/PointClouds/blob/main/Previews/lidarColorByDistanceWBackground.png)
+![alt text](https://github.com/ykim104/PointClouds/blob/main/Previews/lidarColorByObject.png)
+![alt text](https://github.com/ykim104/PointClouds/blob/main/Previews/lidarsensor.png)
+![alt text](https://github.com/ykim104/PointClouds/blob/main/Previews/sensortopointcloud.png)
 
 ## Mesh To points
 ![alt text](https://github.com/ahmaderfani12/PoinClouds/blob/main/Previews/MeshToPointImage.png)
