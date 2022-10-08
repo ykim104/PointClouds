@@ -1,9 +1,20 @@
 # PointClouds
-This project is my practice and journey into point clouds and compute shaders. <br>
-[Here](https://bootcamp.uxdesign.cc/point-cloud-rendering-with-unity-1a07345eb27a) you can read the overview and its tutorial. 
-<br>
-*Not compatible with macOS yet.
+This project is a fork from **ahmaderfani12/PointClouds** to create and visualize a lidar sensor.
 
+
+I added and edited following files:
+- PointGPU.hlsl 
+- MeshCompute.compute
+- LidarSensor.cs
+- SensorToPointcloud.cs
+
+
+# Lidar Sensor To Points
+These images are taken using animated Ballet Dancers. 
+![alt text](https://github.com/ykim104/PoinClouds/blob/main/Previews/lidarColorByDistanceWBackground.png)
+![alt text](https://github.com/ykim104/PoinClouds/blob/main/Previews/lidarColorByObject.png)
+![alt text](https://github.com/ykim104/PoinClouds/blob/main/Previews/lidarsensor.png)
+![alt text](https://github.com/ykim104/PoinClouds/blob/main/Previews/sensortopointcloud.png)
 
 ## Mesh To points
 ![alt text](https://github.com/ahmaderfani12/PoinClouds/blob/main/Previews/MeshToPointImage.png)
